@@ -1,0 +1,3 @@
+[submodule "fractal-pretraining"]
+	path = fractal-pretraining
+	url = git@github.com:catalys1/fractal-pretraining.git
