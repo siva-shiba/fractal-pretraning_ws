@@ -1,0 +1,5 @@
+numpy>=1.15
+opencv-contrib-python
+numba
+imageio
+tqdm

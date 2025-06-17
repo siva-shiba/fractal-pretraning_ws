@@ -17,6 +17,12 @@ RUN mkdir /fractal
 COPY fractal-pretraining/ /fractal/
 RUN cd /fractal/ && pip install -e .
 
+# install pip
+ADD requirements.txt /work_dir
+RUN pip install -U pip && \
+    pip install -r requirements.txt && \
+    rm requirements.txt
+
 # ユーザー指定
 ARG UID
 ARG GID
