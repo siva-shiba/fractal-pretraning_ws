@@ -7,3 +7,10 @@ dockerで起動します
 cd fractal-pretraning_ws/
 sh docker/run-docker.sh
 ```
+
+
+# sample
+```bash
+python make_gif.py
+```
+![テキスト](sample/sample.gif)
